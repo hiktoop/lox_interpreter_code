@@ -123,7 +123,8 @@ private enum ClassType {
 
 受访者定义相应的访问接口和接受函数，在接受函数中调用与自己对应的访问函数接口，具体的访问者类定义访问接口的实现，并在访问者类某处调用相应受访者的accept函数，传入访问者的类(this)。这样，当访问者需要增加时，只需要实现该访问者的功能并为对应受访者添加接口即可，同理，受访者增加时也只需要加入访问者实现的接口即可。
 
-![](/home/whisper/.config/marktext/images/2023-06-11-14-24-47-image.png)
+![设计模式-访问者](https://github.com/hiktoop/lox_interpreter_code/blob/main/picture/Screenshot%20from%202023-06-11%2014-24-40.png)
+
 
 图片来源：[设计模式-访问者](https://refactoringguru.cn/design-patterns/visitor)
 
